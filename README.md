@@ -22,31 +22,31 @@ Step Two: Calculating Time Complexity
 
 Determine the time complexities for each of the following functions. If you’re not sure what these functions do, copy and paste them into the console and experiment with different inputs!
 
-<pre>`function logUpTo(n) {
+<pre>function logUpTo(n) {
   for (let i = 1; i <= n; i++) {
     console.log(i);
   }
-}`</pre>
+}</pre>
 
 Time complexity = O(n)
 
-<pre>`function logAtLeast10(n) {
+<pre>function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
     console.log(i);
   }
-}`</pre>
+}</pre>
 
 Time complexity = O(n)
 
-<pre>`function logAtMost10(n) {
+<pre>function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
     console.log(i);
   }
-}`</pre>
+}</pre>
 
 Time complexity = O(1)
 
-<pre>`function onlyElementsAtEvenIndex(array) {
+<pre>function onlyElementsAtEvenIndex(array) {
   let newArray = [];
   for (let i = 0; i < array.length; i++) {
     if (i % 2 === 0) {
@@ -54,11 +54,11 @@ Time complexity = O(1)
     }
   }
   return newArray;
-}`</pre>
+}</pre>
 
 Time complexity = O(n)
 
-<pre>`function subtotals(array) {
+<pre>function subtotals(array) {
   let subtotalArray = [];
   for (let i = 0; i < array.length; i++) {
     let subtotal = 0;
@@ -68,11 +68,11 @@ Time complexity = O(n)
     subtotalArray.push(subtotal);
   }
   return subtotalArray;
-}`</pre>
+}</pre>
 
 Time complexity: O(n^2)
 
-<pre>`function vowelCount(str) {
+<pre>function vowelCount(str) {
   let vowelCount = {};
   const vowels = "aeiouAEIOU";
 
@@ -87,7 +87,7 @@ Time complexity: O(n^2)
   }
 
   return vowelCount;
-}`</pre>
+}</pre>
 
 Time complexity: O(n)
 
